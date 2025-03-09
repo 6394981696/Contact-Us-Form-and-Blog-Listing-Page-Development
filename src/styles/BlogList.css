@@ -1,0 +1,62 @@
+.blog-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  .search-box {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .blog-card {
+    background: #3a3cd3;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .blog-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-card p {
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  .blog-card button {
+    background: black;
+    color: rgb(235, 143, 186);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .search-box {
+      width: 100%;
+    }
+  }
+  
